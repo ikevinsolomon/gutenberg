@@ -28,7 +28,7 @@ function PostStatusTvlk( { isOpened, onTogglePanel } ) {
 		<PanelBody className="edit-post-post-status" title={ __( 'Status & Visibility' ) } opened={ isOpened } onToggle={ onTogglePanel }>
 			<PostVisibility />
 			<PostSchedule />
-			<PostPendingStatus />
+			{/* <PostPendingStatus /> */}
 			<PostAuthor />
 			<PostTrash />
 		</PanelBody>

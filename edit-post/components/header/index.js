@@ -43,7 +43,7 @@ function Header( {
 						forceIsDirty={ hasActiveMetaboxes }
 						forceIsSaving={ isSaving }
 					/>
-					<PostPreviewButton />
+					{/* <PostPreviewButton /> */}
 					<PostPublishPanelToggle
 						isOpen={ isPublishSidebarOpened }
 						onToggle={ togglePublishSidebar }
